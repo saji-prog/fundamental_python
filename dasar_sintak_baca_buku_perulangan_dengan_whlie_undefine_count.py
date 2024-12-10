@@ -1,25 +1,25 @@
 """
 program perulangan membaca buku dengan while sampai paham
 """
-jumlah_buku = 10
+book_count = 10
 print('ibu berkata,"baca semua bukumu"')
-total_jumlah_baca = 0
+read_count = 0
 
-jumlah_buku_yang_sudah_dibaca_dan_dipahami = 0
-print(f'jumlah buku yang sudah di baca dan dipahami {jumlah_buku_yang_sudah_dibaca_dan_dipahami}')
+understood_count = 0
+print(f'jumlah buku yang sudah di baca dan dipahami {understood_count}')
 
-while total_jumlah_baca < jumlah_buku * 2:
-    total_jumlah_baca = total_jumlah_baca + 1
-    if jumlah_buku_yang_sudah_dibaca_dan_dipahami == 9:
-        print(f"buku ke{jumlah_buku_yang_sudah_dibaca_dan_dipahami} belum paham")
+while read_count < book_count * 2:
+    read_count = read_count + 1
+    if understood_count == 9:
+        print(f"buku ke{understood_count} belum paham")
     else:
-        jumlah_buku_yang_sudah_dibaca_dan_dipahami = jumlah_buku_yang_sudah_dibaca_dan_dipahami + 1
-        print(f"buku ke {jumlah_buku_yang_sudah_dibaca_dan_dipahami} sudah di baca dan dipahami")
+        understood_count = understood_count + 1
+        print(f"buku ke {understood_count} sudah di baca dan dipahami")
 
-print(f'jumlah buku yang sudah di baca dan dipahami {jumlah_buku_yang_sudah_dibaca_dan_dipahami}')
-if jumlah_buku_yang_sudah_dibaca_dan_dipahami == jumlah_buku
+print(f'jumlah buku yang sudah di baca dan dipahami {understood_count}')
+if understood_count == book_count
     print(f'bu,semua buku sudah di baca dan dipahami')
 else:
     print(f'"bu, tidak semua buku bisa dipahami.'
-          f' budi hanya bisa memamahami {jumlah_buku_yang_sudah_dibaca_dan_dipahami} buku)
+          f' budi hanya bisa memamahami {understood_count} buku)
 
