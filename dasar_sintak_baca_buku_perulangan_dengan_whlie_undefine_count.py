@@ -17,9 +17,9 @@ while read_count < book_count * 2:
         print(f"buku ke {understood_count} sudah di baca dan dipahami")
 
 print(f'jumlah buku yang sudah di baca dan dipahami {understood_count}')
-if understood_count == book_count
+if understood_count == book_count:
     print(f'bu,semua buku sudah di baca dan dipahami')
 else:
     print(f'"bu, tidak semua buku bisa dipahami.'
-          f' budi hanya bisa memamahami {understood_count} buku)
+          f'budi hanya bisa memamahami {understood_count} buku"')
 
